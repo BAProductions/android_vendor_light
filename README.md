@@ -1,1 +1,1 @@
-# android_vendor_light
+# LightOS Vender File
