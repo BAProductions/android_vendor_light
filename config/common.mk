@@ -1,4 +1,4 @@
-PRODUCT_BRAND ?= LineageOSLight
+PRODUCT_BRAND ?= LineageOS
 #This two lines are just for files and folder not fot function
 Base_Vendor_Name := cm
 Base_Vendor_Name_full := cyanogenmod
