@@ -1,4 +1,4 @@
-PRODUCT_BRAND ?= LineageOS
+PRODUCT_BRAND ?= LineageOSLight
 #This two lines are just for files and folder not fot function
 Base_Vendor_Name := cm
 Base_Vendor_Name_full := cyanogenmod
@@ -84,7 +84,7 @@ include vendor/light/config/lineage_light_audio.mk
 
 ifneq ($(TARGET_DISABLE_CMSDK), true)
 # CMSDK
-include vendor/$(Base_Vendor_Name)/config/$(Base_Vendor_Name)dk_common.mk
+include vendor/$(Base_Vendor_Name)/config/$(Base_Vendor_Name)sdk_common.mk
 endif
 
 # TWRP
