@@ -121,6 +121,7 @@ PRODUCT_PACKAGES += \
     LineageSetupWizard \
     ExactCalculator \
     Jelly \
+    KISSLauncher \
     Trebuchet \
     Updater \
     WallpaperPicker \
