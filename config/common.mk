@@ -1,4 +1,4 @@
-PRODUCT_BRAND ?= LineageOS
+PRODUCT_BRAND ?= LineageOS_Light
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
@@ -19,7 +19,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Default notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.config.notification_sound=Argon.ogg \
-    ro.config.alarm_alert=Hassium.ogg
+    ro.config.alarm_alert=Smooth.ogg
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
 # Thank you, please drive thru!
@@ -126,8 +126,6 @@ PRODUCT_PACKAGES += \
 # Optional packages
 PRODUCT_PACKAGES += \
     libemoji \
-    LiveWallpapersPicker \
-    PhotoTable \
     Terminal
 
 # Include explicitly to work around GMS issues
@@ -139,12 +137,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AudioFX \
     LineageSettingsProvider \
-    LineageSetupWizard \
-    Eleven \
     ExactCalculator \
     Jelly \
-    LockClock \
-    Trebuchet \
     Updater \
     WallpaperPicker \
     WeatherProvider
