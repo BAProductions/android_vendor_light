@@ -140,6 +140,7 @@ PRODUCT_PACKAGES += \
     Jelly \
     Lawnchair \
     LawnFeed \
+    MKexplorer_2.4.0 \
     Phonograph \
     Updater \
     WallpaperPicker
