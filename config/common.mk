@@ -135,13 +135,14 @@ PRODUCT_PACKAGES += \
 
 # Custom Lineage packages
 PRODUCT_PACKAGES += \
-    AudioFX \
     LineageSettingsProvider \
     ExactCalculator \
     Jelly \
+    Lawnchair \
+    LawnFeed \
+    Phonograph \
     Updater \
-    WallpaperPicker \
-    WeatherProvider
+    WallpaperPicker
 
 # Exchange support
 PRODUCT_PACKAGES += \
