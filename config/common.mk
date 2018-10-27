@@ -365,3 +365,8 @@ endif
 -include vendor/lineage/config/partner_gms.mk
 
 $(call inherit-product-if-exists, vendor/extra/product.mk)
+
+#Run Only If The opengapps Folder Is Present In The Vendor Folder
+if [ ! -d "vendor/opengapps" ]; then 
+	$(call inherit-product-if-exists, opengapps++.mk)
+fi
