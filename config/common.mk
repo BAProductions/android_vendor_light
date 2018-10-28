@@ -100,6 +100,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     BluetoothExt \
     CMAudioService \
+    MKexplorer_2.4.0 \
     CMParts \
     Development \
     Profiles \
@@ -359,3 +360,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 -include vendor/cyngn/product.mk
 
 $(call prepend-product-if-exists, vendor/extra/product.mk)
+$(call prepend-product-if-exists, vendor/cm/opengapps++.mk)
