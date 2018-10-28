@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
 # Ringtones
 ifeq ($(TARGET_NEEDS_BOOSTED_SOUNDS),true)
 PRODUCT_COPY_FILES -= \
+    $(RINGTONE_PATH)/Smooth.ogg:system/media/audio/ringtones/Smooth.ogg \
 else
 PRODUCT_COPY_FILES += \
     $(RINGTONE_PATH)/Smooth.ogg:system/media/audio/ringtones/Smooth.ogg \
