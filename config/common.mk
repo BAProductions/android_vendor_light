@@ -100,7 +100,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     BluetoothExt \
     CMAudioService \
-    MKexplorer_2.4.0 \
+    MKexplorer \
     CMParts \
     Development \
     Profiles \

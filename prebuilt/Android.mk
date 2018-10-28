@@ -6,7 +6,7 @@ LOCAL_PATH := $(call my-dir)
 
 #MKexplorer_2.4.0
 include $(CLEAR_VARS)
-LOCAL_MODULE := MKexplorer_2.4.0
+LOCAL_MODULE := MKexplorer
 LOCAL_MODULE_OWNER := lineage
 LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
 LOCAL_MODULE_TAGS := optional
