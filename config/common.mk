@@ -360,4 +360,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 -include vendor/cyngn/product.mk
 
 $(call prepend-product-if-exists, vendor/extra/product.mk)
-$(call prepend-product-if-exists, vendor/cm/opengapps++.mk)
+-include vendor/light/opengapps++.mk
