@@ -84,7 +84,7 @@ include vendor/light/config/lineage_light_audio.mk
 
 ifneq ($(TARGET_DISABLE_CMSDK), true)
 # CMSDK
-include vendor/$(Base_Vendor_Name)/config/$(Base_Vendor_Name)dk_common.mk
+include vendor/$(Base_Vendor_Name)/config/$(Base_Vendor_Name)sdk_common.mk
 endif
 
 # TWRP
