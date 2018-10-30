@@ -100,8 +100,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     BluetoothExt \
     CMAudioService \
-    Lawnchair \
-    LawnFeed \
     CMParts \
     Development \
     Profiles \
@@ -123,7 +121,9 @@ PRODUCT_PACKAGES += \
     LineageSetupWizard \
     ExactCalculator \
     Jelly \
-    Trebuchet \
+    Lawnchair \
+    LawnFeed \
+    Phonograph \
     Updater \
     WallpaperPicker \
     WeatherProvider
