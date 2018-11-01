@@ -1,4 +1,4 @@
-PRODUCT_BRAND ?= LineageOSLight
+PRODUCT_BRAND ?= LineageOS
 #This two lines are just for files and folder not fot function
 Base_Vendor_Name := cm
 Base_Vendor_Name_full := cyanogenmod
@@ -21,7 +21,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Default notification/alarm sounds
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Argon.ogg \
-    ro.config.alarm_alert=Hassium.ogg
+    ro.config.alarm_alert=Smooth.ogg
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
 # Thank you, please drive thru!
@@ -100,7 +100,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     BluetoothExt \
     CMAudioService \
-    MKexplorer \
     CMParts \
     Development \
     Profiles \
@@ -122,7 +121,9 @@ PRODUCT_PACKAGES += \
     LineageSetupWizard \
     ExactCalculator \
     Jelly \
-    Trebuchet \
+    Lawnchair \
+    LawnFeed \
+    Phonograph \
     Updater \
     WallpaperPicker \
     WeatherProvider
