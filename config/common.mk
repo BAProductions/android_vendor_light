@@ -225,7 +225,7 @@ PRODUCT_PACKAGES += \
 endif
 endif
 
-DEVICE_PACKAGE_OVERLAYS += vendor/$(Base_Vendor_Name)/overlay/common
+DEVICE_PACKAGE_OVERLAYS += vendor/light/overlay/common
 
 PRODUCT_VERSION_MAJOR = 14
 PRODUCT_VERSION_MINOR = 1
