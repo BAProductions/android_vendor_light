@@ -10,3 +10,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/$(Base_Vendor_Name)/overlay/dictionaries
 
 $(call inherit-product, vendor/light/config/telephony.mk)
+
+$(call inherit-product, vendor/light/config/opengapps_full_phone.mk)
