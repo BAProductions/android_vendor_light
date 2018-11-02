@@ -128,6 +128,10 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     WeatherProvider
 
+# FlipFlap Support Added
+PRODUCT_PACKAGES += \
+    FlipFlap
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
