@@ -6,7 +6,6 @@ $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 # Open Gapps Package I Don't Want At All
 GAPPS_EXCLUDED_PACKAGES := \
    Wallpapers \
-   Wallpapers \
    CloudPrint \   DMAgent \   Docs \
    Duo \
    Earth\
@@ -27,4 +26,3 @@ GAPPS_EXCLUDED_PACKAGES := \
 
 # Setting
 GAPPS_FORCE_PACKAGE_OVERRIDES := true
-WITH_DEXPREOPT := true
