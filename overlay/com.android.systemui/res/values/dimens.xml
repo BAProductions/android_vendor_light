@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margin on the left side of the battery % in the header. -->
+    <dimen name="header_battery_margin_expanded">4dp</dimen>
+
+    <!-- Margin on the left side of the battery % when on Keyguard. -->
+    <dimen name="header_battery_margin_keyguard">4dp</dimen>
+</resources>

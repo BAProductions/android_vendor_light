@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors -->
+    <color name="transparent">#00000000</color>
+    <drawable name="notification_template_icon_bg">#ff303030</drawable>
+    <drawable name="notification_template_icon_low_bg">#ff303030</drawable>
+    <drawable name="notification_template_divider_media">#29303030</drawable>
+    <color name="notification_material_background_color">#ff303030</color>
+    <color name="notification_default_color">#ff303030</color>
+    <color name="notification_icon_default_color">@*android:color/accent_material_dark</color>
+    <color name="notification_progress_background_color">#ff303030</color>
+    <color name="notification_action_list">#ff303030</color>
+    <color name="system_notification_accent_color">#ffffffff</color>
+    <color name="chooser_service_row_background_color">#ff303030</color>
+    <color name="system_bar_background_semi_transparent">#00000000</color>
+
+    <!-- Colors material -->
+    <color name="background_material_dark">#ff303030</color>
+    <color name="background_floating_material_dark">#ff303030</color>
+
+    <!-- Exposed colors -->
+    <color name="resolver_list_bg">#ff303030</color>
+    <color name="app_permission_icon_tint">#ffffffff</color>
+    <color name="immersive_cling_bg_color">#ff303030</color>
+    <color name="notification_text_default_color">#ffffffff</color>
+    <color name="sender_text_color">#ffffffff</color>
+</resources>
