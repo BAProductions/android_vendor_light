@@ -17,7 +17,6 @@
  */
 -->
 <resources>
-    <bool name="def_wifi_on">true</bool>
     <!-- <bool name="def_power_notifications_enabled">true</bool> -->
     
     <!-- Default clock position
