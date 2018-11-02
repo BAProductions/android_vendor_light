@@ -123,14 +123,15 @@ PRODUCT_PACKAGES += \
     Jelly \
     Lawnchair \
     LawnFeed \
+    Launcher3 \
     Phonograph \
     Updater \
     WallpaperPicker \
     WeatherProvider
 
 # FlipFlap Support Added
-PRODUCT_PACKAGES += \
-    FlipFlap
+#PRODUCT_PACKAGES += \
+#    FlipFlap
 
 # Exchange support
 PRODUCT_PACKAGES += \
