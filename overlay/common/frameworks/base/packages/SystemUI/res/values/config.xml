@@ -25,13 +25,13 @@
 <!-- Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? -->
     <bool name="config_show4GForLTE">false</bool>
 
-    <bool name="quick_settings_show_full_alarm">false</bool>
+    <bool name="quick_settings_show_full_alarm">true</bool>
     
     <!-- Whether QuickSettings is in a phone landscape -->
     <bool name="quick_settings_wide">true</bool>
     
     <!-- The number of columns in the QuickSettings -->
-    <integer name="quick_settings_num_columns">3</integer>
+    <integer name="quick_settings_num_columns">4</integer>
     
     <!-- The number of rows in the QuickSettings -->
     <integer name="quick_settings_num_rows">1</integer>
