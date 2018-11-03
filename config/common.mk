@@ -232,7 +232,7 @@ endif
 endif
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/$(Base_Vendor_Name)/overlay/common \
-    vendor/light/overlay/mods \
+    vendor/light/overlay/common \
     vendor/light/overlay/theme
 
 PRODUCT_VERSION_MAJOR = 14

@@ -8,4 +8,3 @@ PRODUCT_PACKAGES += \
 
 DEVICE_PACKAGE_OVERLAYS += vendor/$(Base_Vendor_Name)/overlay/tv
 
-$(call inherit-product, vendor/light/config/opengapps_full_tv.mk)
