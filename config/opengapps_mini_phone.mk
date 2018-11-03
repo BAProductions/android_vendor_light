@@ -2,8 +2,6 @@
 GAPPS_VARIANT := mini
 GAPPS_VARIANT := stock
 
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
-
 #Adding Google Drive + Some Extras
 GAPPS_PRODUCT_PACKAGES +=
       Drive \
@@ -13,7 +11,7 @@ GAPPS_PRODUCT_PACKAGES +=
       CarrierServices \
       DialerFramework \ 
       DialerGoogle \ 
-      BatteryUsage \
+      BatteryUsage
 
 # Setting
 GAPPS_FORCE_PACKAGE_OVERRIDES := true
@@ -26,4 +24,6 @@ GAPPS_PACKAGE_OVERRIDES := \
       CarrierServices \
       DialerFramework \ 
       DialerGoogle \ 
-      BatteryUsage \
+      BatteryUsage
+
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)

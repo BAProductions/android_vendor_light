@@ -1,7 +1,6 @@
 # Open Gapps PreLoaded
 
 GAPPS_VARIANT := super
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # Open Gapps Package I Don't Want At All
 GAPPS_EXCLUDED_PACKAGES := \
@@ -72,3 +71,5 @@ GAPPS_PACKAGE_OVERRIDES := \
       Talkback \ 
       WebViewGoogle \ 
       YouTube
+
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)

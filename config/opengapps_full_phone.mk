@@ -1,7 +1,6 @@
 # Open Gapps PreLoaded
 
 GAPPS_VARIANT := super
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # Open Gapps Package I Don't Want At All
 GAPPS_EXCLUDED_PACKAGES := \
@@ -34,7 +33,7 @@ GAPPS_EXCLUDED_PACKAGES := \
       GooglePlus \ 
       Wallpapers \ 
       ProjectFi \ 
-      DMAgent \
+      DMAgent
 
 # Setting
 GAPPS_PACKAGE_OVERRIDES := \
@@ -70,4 +69,6 @@ GAPPS_PACKAGE_OVERRIDES := \
       StorageManagerGoogle \ 
       Talkback \ 
       WebViewGoogle \ 
-      YouTube \
+      YouTube
+
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)

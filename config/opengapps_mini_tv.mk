@@ -2,8 +2,6 @@
 GAPPS_VARIANT := TVStock
 GAPPS_VARIANT := micro
 
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
-
 #Adding Chrome Foer Web Browser And PrintServiceGoogle For Printing
 GAPPS_PRODUCT_PACKAGES += \
     Chrome \
@@ -15,3 +13,6 @@ GAPPS_FORCE_PACKAGE_OVERRIDES := true
 GAPPS_PACKAGE_OVERRIDES := \
     Chrome \
     PrintServiceGoogle \
+
+
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
