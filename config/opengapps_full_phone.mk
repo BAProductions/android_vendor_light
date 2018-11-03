@@ -1,5 +1,5 @@
 # Open Gapps PreLoaded
-GAPPS_VARIANT := super
+GAPPS_VARIANT := aroma
 
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
@@ -17,7 +17,7 @@ GAPPS_EXCLUDED_PACKAGES := \
    Japanese \
    Keep \
    Korean \
-   NewsStand \   NewsWidget \   Pinyin \   ProjectFi \   Sheets \
+   NewsStand \   NewsWidget \   Pinyin \   ProjectFi \   Sheets 
 
 #GAPPS_BYPASS_PACKAGE_OVERRIDES := BatteryUsage
 #GAPPS_BYPASS_PACKAGE_OVERRIDES := Wallpapers
