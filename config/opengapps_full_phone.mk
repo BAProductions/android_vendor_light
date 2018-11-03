@@ -34,7 +34,7 @@ GAPPS_EXCLUDED_PACKAGES := \
       GooglePlus \ 
       Wallpapers \ 
       ProjectFi \ 
-      DMAgent 
+      DMAgent \
 
 # Setting
 GAPPS_PACKAGE_OVERRIDES := \
@@ -70,4 +70,4 @@ GAPPS_PACKAGE_OVERRIDES := \
       StorageManagerGoogle \ 
       Talkback \ 
       WebViewGoogle \ 
-      YouTube 
+      YouTube \

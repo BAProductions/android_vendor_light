@@ -13,7 +13,7 @@ GAPPS_PRODUCT_PACKAGES +=
       CarrierServices \
       DialerFramework \ 
       DialerGoogle \ 
-      BatteryUsage
+      BatteryUsage \
 
 # Setting
 GAPPS_FORCE_PACKAGE_OVERRIDES := true
@@ -26,4 +26,4 @@ GAPPS_PACKAGE_OVERRIDES := \
       CarrierServices \
       DialerFramework \ 
       DialerGoogle \ 
-      BatteryUsage
+      BatteryUsage \

@@ -40,7 +40,7 @@ GAPPS_EXCLUDED_PACKAGES := \
       GooglePay \ 
       CarrierServices \
       DialerFramework \ 
-      DialerGoogle 
+      DialerGoogle \
 
 # Setting
 GAPPS_PACKAGE_OVERRIDES := \

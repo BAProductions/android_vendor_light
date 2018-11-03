@@ -14,4 +14,4 @@ GAPPS_FORCE_PACKAGE_OVERRIDES := true
 
 GAPPS_PACKAGE_OVERRIDES := \
       Drive \
-      Music
+      Music \
