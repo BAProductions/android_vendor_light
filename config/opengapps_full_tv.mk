@@ -11,3 +11,7 @@ GAPPS_PRODUCT_PACKAGES += \
 
 # Setting
 GAPPS_FORCE_PACKAGE_OVERRIDES := true
+
+GAPPS_PACKAGE_OVERRIDES := \
+    Chrome \
+    PrintServiceGoogle \
