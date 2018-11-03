@@ -7,7 +7,7 @@ GAPPS_PRODUCT_PACKAGES += \
     CalendarGoogle \
     ExchangeGoogle \
     Gmail \
-    CalculatorGoogle
+    CalculatorGoogle \
     ClockGoogle \
     Maps \
     Photos \
