@@ -40,7 +40,7 @@ GAPPS_EXCLUDED_PACKAGES := \
       GooglePay \ 
       CarrierServices \
       DialerFramework \ 
-      DialerGoogle \
+      DialerGoogle
 
 # Setting
 GAPPS_PACKAGE_OVERRIDES := \
@@ -71,4 +71,4 @@ GAPPS_PACKAGE_OVERRIDES := \
       StorageManagerGoogle \ 
       Talkback \ 
       WebViewGoogle \ 
-      YouTube \ 
+      YouTube
