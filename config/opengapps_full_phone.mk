@@ -5,7 +5,6 @@ GAPPS_VARIANT := super
 # Open Gapps Package I Don't Want At All
 GAPPS_EXCLUDED_PACKAGES := \
       Zhuyin \ 
-      inclorexcl \ 
       Translate \ 
       VRService \ 
       Street \ 
