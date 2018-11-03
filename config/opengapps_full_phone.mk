@@ -1,28 +1,33 @@
 # Open Gapps PreLoaded
-GAPPS_VARIANT := aroma
-
+GAPPS_VARIANT := nano
+GAPPS_VARIANT := super
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
-
-# Open Gapps Package I Don't Want At All
-GAPPS_EXCLUDED_PACKAGES := \
-   Wallpapers \
-   CloudPrint \   DMAgent \   Docs \
-   Duo \
-   Earth\
-   GCS \
-   GoogleNow \
-   GooglePlus \
-   Hangouts \
-   Indic \
-   Japanese \
-   Keep \
-   Korean \
-   NewsStand \   NewsWidget \   Pinyin \   ProjectFi \   Sheets 
-
-#GAPPS_BYPASS_PACKAGE_OVERRIDES := BatteryUsage
-#GAPPS_BYPASS_PACKAGE_OVERRIDES := Wallpapers
-#GAPPS_BYPASS_PACKAGE_OVERRIDES := CarrierServices#GAPPS_BYPASS_PACKAGE_OVERRIDES := CloudPrint#GAPPS_BYPASS_PACKAGE_OVERRIDES := DialerFramework#GAPPS_BYPASS_PACKAGE_OVERRIDES := DialerGoogle#GAPPS_BYPASS_PACKAGE_OVERRIDES := DMAgent#GAPPS_BYPASS_PACKAGE_OVERRIDES := Docs#GAPPS_BYPASS_PACKAGE_OVERRIDES := Duo#GAPPS_BYPASS_PACKAGE_OVERRIDES := Earth#GAPPS_BYPASS_PACKAGE_OVERRIDES := Fitness#GAPPS_BYPASS_PACKAGE_OVERRIDES := GCS#GAPPS_BYPASS_PACKAGE_OVERRIDES := GoogleNow#GAPPS_BYPASS_PACKAGE_OVERRIDES := GooglePay#GAPPS_BYPASS_PACKAGE_OVERRIDES := GooglePlus
-#GAPPS_BYPASS_PACKAGE_OVERRIDES := Hangouts#GAPPS_BYPASS_PACKAGE_OVERRIDES := Indic#GAPPS_BYPASS_PACKAGE_OVERRIDES := Japanese#GAPPS_BYPASS_PACKAGE_OVERRIDES := Keep#GAPPS_BYPASS_PACKAGE_OVERRIDES := Korean#GAPPS_BYPASS_PACKAGE_OVERRIDES := Messenger#GAPPS_BYPASS_PACKAGE_OVERRIDES := NewsStand#GAPPS_BYPASS_PACKAGE_OVERRIDES := NewsWidget#GAPPS_BYPASS_PACKAGE_OVERRIDES := Pinyin#GAPPS_BYPASS_PACKAGE_OVERRIDES := ProjectFi#GAPPS_BYPASS_PACKAGE_OVERRIDES := Sheets#GAPPS_BYPASS_PACKAGE_OVERRIDES := Slides#GAPPS_BYPASS_PACKAGE_OVERRIDES := Street#GAPPS_BYPASS_PACKAGE_OVERRIDES := TagGoogle#GAPPS_BYPASS_PACKAGE_OVERRIDES := Translate#GAPPS_BYPASS_PACKAGE_OVERRIDES := VRService#GAPPS_BYPASS_PACKAGE_OVERRIDES := Zhuyin 
+#Other Apps I Need 
+GAPPS_PRODUCT_PACKAGES += \
+    CalendarGoogle \
+    ExchangeGoogle \
+    Gmail \
+    CalculatorGoogle
+    ClockGoogle \
+    Maps \
+    Photos \
+    YouTube \
+    Drive \
+    Music \
+    CameraGoogle \
+    ContactsGoogle \
+    KeyboardGoogle \
+    PixelIcons \
+    StorageManagerGoogle \
+    GCS \
+    TalkBack \
+    PrintServiceGoogle \
+    WebViewGoogle \
+    WebViewStub \
+    #Wallpapers \
+    #Newsstand \
+    #NewsWidget \
+    #PlayGames 
 
 # Setting
 GAPPS_FORCE_PACKAGE_OVERRIDES := true
