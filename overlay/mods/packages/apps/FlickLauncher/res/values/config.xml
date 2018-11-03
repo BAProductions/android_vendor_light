@@ -1,0 +1,14 @@
+<resources>
+
+<!-- Miscellaneous -->
+    <bool name="is_tablet">true</bool>
+    <bool name="is_large_tablet">true</bool>
+    <bool name="allow_rotation">true</bool>
+    <bool name="allow_circular_icon">true</bool>
+    <bool name="allow_sleep">true</bool>
+    <bool name="allow_transparent_folder_on_launcher">true</bool>
+    <bool name="allow_persistent_search_bar">false</bool>
+    <bool name="allow_voice_in_search_bar">false</bool>
+    <bool name="allow_night_mode">true</bool>
+
+</resources>
