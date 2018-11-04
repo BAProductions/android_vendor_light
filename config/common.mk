@@ -122,13 +122,16 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     Jelly \
     Notepad \
-    Lawnchair \
-    LawnFeed \
     Launcher3 \
-    Phonograph \
     Updater \
     WallpaperPicker \
     WeatherProvider
+    ViPER4Android \
+    Nox \
+    Venus \
+    ThemeChooser \
+    MKCenter \
+    Polyhymnia
 
 # FlipFlap Support Added
 #PRODUCT_PACKAGES += \

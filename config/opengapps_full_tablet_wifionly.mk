@@ -17,13 +17,10 @@ GAPPS_EXCLUDED_PACKAGES := \
     PlayGames \
     EditorsSheets \
     EditorsSlides \
-    TagGoogle \
     GoogleVrCore \
     GoogleExtServices \
     GoogleExtShared \
-    Wallet \
     DMAgent \
-    CarrierServices \
     GoogleEarth \
     GoogleHindiIME \
     GoogleJapaneseInput \
@@ -35,9 +32,15 @@ GAPPS_EXCLUDED_PACKAGES := \
     PixelLauncher \
     Wallpapers \
     DigitalWellbeing \
-    FitnessPrebuilt \
     PrebuiltKeep \
     TranslatePrebuilt \
+    Wallet \
+    CarrierServices \
+    TagGoogle \
+    FitnessPrebuilt \
+    PrebuiltBugle \
+    GoogleDialer \
+    ActionsServices \
 
 # Setting
 GAPPS_PACKAGE_OVERRIDES := \
