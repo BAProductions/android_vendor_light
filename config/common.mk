@@ -131,8 +131,7 @@ PRODUCT_PACKAGES += \
     ThemeChooser \
     MKCenter \
     Poseidon \
-    Polyhymnia \
-    AmazeFileManager
+    Polyhymnia
 
 # ViPER4Android = Better Sound Hell Yeah Im Keeping This Apps
 PRODUCT_PACKAGES += \
