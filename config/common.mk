@@ -131,6 +131,7 @@ PRODUCT_PACKAGES += \
     Venus \
     ThemeChooser \
     MKCenter \
+    Poseidon \
     Polyhymnia
 
 # FlipFlap Support Added
