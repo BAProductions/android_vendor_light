@@ -125,8 +125,9 @@ PRODUCT_PACKAGES += \
     Updater \
     WallpaperPicker \
     WeatherProvider\
-    Notepad \
-    ThemeChooser
+    Notepad
+    #Venus \
+    #ThemeChooser
     #Notepad \
     #Venus \
     #Polyhymnia \
