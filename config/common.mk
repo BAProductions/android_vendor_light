@@ -129,10 +129,10 @@ PRODUCT_PACKAGES += \
     Notepad \
     Venus \
     Polyhymnia \
-    Poseidon
+    ThemeChooser
+    #Poseidon
     #MKCenter \
     #Nox \
-    #ThemeChooser \
 
 # ViPER4Android = Better Sound Hell Yeah Im Keeping This Apps
 PRODUCT_PACKAGES += \
