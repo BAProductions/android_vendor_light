@@ -125,10 +125,10 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     Updater \
     WallpaperPicker \
-    WeatherProvider
+    WeatherProvider\
+    ThemeChooser \
     Nox \
     Venus \
-    ThemeChooser \
     MKCenter \
     Poseidon \
     Polyhymnia
