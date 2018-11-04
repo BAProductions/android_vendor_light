@@ -126,6 +126,7 @@ PRODUCT_PACKAGES += \
     Updater \
     WallpaperPicker \
     WeatherProvider\
+    Notepad \
     ThemeChooser \
     Nox \
     Venus \
