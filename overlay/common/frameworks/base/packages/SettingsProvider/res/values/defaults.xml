@@ -17,6 +17,9 @@
  */
 -->
 <resources>
+    <bool name="def_wifi_on">true</bool>
+
+    <string name="def_backup_transport">com.google.android.gms/.backup.BackupTransportService</string>
     <!-- <bool name="def_power_notifications_enabled">true</bool> -->
     
     <!-- Default clock position

@@ -18,14 +18,21 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
+<!-- Control whether status bar should distinguish HSPA data icon
+     from UMTS data icon on devices -->
+    <bool name="config_hspa_data_distinguishable">true</bool>
+
+<!-- Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? -->
+    <bool name="config_show4GForLTE">false</bool>
+
+    <bool name="quick_settings_show_full_alarm">true</bool>
     
     <string name="quick_settings_tiles_default" translatable="false">
         airplane,cell,wifi,bt,hotspot,usb_tether,cast,location,adb_network,rotation,battery,dnd
     </string>
     
     <!-- Tiles native to System UI. Order should match "quick_settings_tiles_default" -->
-    <string name="quick_settings_tiles_stock" translatable="false">
-        airplane,cell,wifi,bt,hotspot,usb_tether,cast,location,adb_network,rotation,battery,dnd,flashlight,nfc,inversion,saver,work,night,livedisplay,ambient_display,caffeine,heads_up,sync,volume_panel,profiles
+    <string name="quick_settings_tiles_stock" translatable="false">    airplane,cell,wifi,bt,hotspot,usb_tether,cast,location,adb_network,rotation,battery,dnd,flashlight,nfc,inversion,saver,work,night,livedisplay,ambient_display,caffeine,heads_up,sync,volume_panel,profiles
     </string>
     <!-- The tiles to display in QuickSettings in retail mode -->
     <string name="quick_settings_tiles_retail_mode" translatable="false">
