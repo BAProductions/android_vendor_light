@@ -28,6 +28,6 @@
         <item>com.android.externalstorage</item>
         <item>com.android.providers.downloads.ui</item>
         <item>com.android.packageinstaller</item>
-        <item>org.mokee.mksettings</item>
+        <item>org.cyanogenmod.cmsettings</item>
     </string-array>
 </resources>
