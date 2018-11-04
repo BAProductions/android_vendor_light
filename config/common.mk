@@ -126,17 +126,17 @@ PRODUCT_PACKAGES += \
     Updater \
     WallpaperPicker \
     WeatherProvider
-    ViPER4Android \
     Nox \
     Venus \
     ThemeChooser \
     MKCenter \
     Poseidon \
-    Polyhymnia
+    Polyhymnia \
+    AmazeFileManager
 
-# FlipFlap Support Added
-#PRODUCT_PACKAGES += \
-#    FlipFlap
+# ViPER4Android = Better Sound Hell Yeah Im Keeping This Apps
+PRODUCT_PACKAGES += \
+    ViPER4Android
 
 # Exchange support
 PRODUCT_PACKAGES += \
