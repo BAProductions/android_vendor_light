@@ -127,12 +127,12 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     WeatherProvider\
     Notepad \
-    ThemeChooser \
     Nox \
     Venus \
-    Poseidon \
     Polyhymnia
     #MKCenter \
+    #Poseidon \
+    #ThemeChooser \
 
 # ViPER4Android = Better Sound Hell Yeah Im Keeping This Apps
 PRODUCT_PACKAGES += \
