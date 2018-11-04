@@ -130,9 +130,9 @@ PRODUCT_PACKAGES += \
     ThemeChooser \
     Nox \
     Venus \
-    MKCenter \
     Poseidon \
     Polyhymnia
+    #MKCenter \
 
 # ViPER4Android = Better Sound Hell Yeah Im Keeping This Apps
 PRODUCT_PACKAGES += \
