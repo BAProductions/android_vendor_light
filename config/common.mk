@@ -121,15 +121,15 @@ PRODUCT_PACKAGES += \
     LineageSetupWizard \
     ExactCalculator \
     Jelly \
-    Notepad \
     Launcher3 \
     Updater \
     WallpaperPicker \
     WeatherProvider\
     Notepad \
     ThemeChooser
-#    Venus \
-#    Polyhymnia \
+    #Notepad \
+    #Venus \
+    #Polyhymnia \
 
 # ViPER4Android = Better Sound Hell Yeah Im Keeping This Apps
 PRODUCT_PACKAGES += \
