@@ -15,7 +15,14 @@
      limitations under the License.
 -->
 <resources>
-
+    <!-- Defaults for System -->
+    
+    <!-- Default for CMSettings.System.QS_QUICK_PULLDOWN
+     0. Off
+     1. Right
+     2. Left -->
+    <integer name="def_qs_quick_pulldown">2</integer>
+    
     <!-- Default for CMSettings.System.STATUS_BAR_BATTERY_STYLE
         * 0: Display the battery as icon in portrait mode
         * 2: Display the battery as a circle
@@ -29,10 +36,11 @@
     
     <!-- Disable by default to save on battery while play localy stored music. -->
     <bool name="def_lockscreen_visualizer">false</bool>
-    
-    <integer name="def_qs_quick_pulldown">2</integer>
-    
+
     <!-- Default temperature unit change from C to F . -->
     <integer name="def_temperature_unit">1</integer>
-
+    
+    <!-- Default values for protected component managers -->
+    <string name="def_protected_component_managers" translatable="false">com.android.settings|com.android.launcher3|com.cyanogenmod.trebuchet|org.cyanogenmod.cmparts</string>
+    
 </resources>

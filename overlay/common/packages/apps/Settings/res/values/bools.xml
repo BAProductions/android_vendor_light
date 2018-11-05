@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2015 The Android Open Source Project
+<!-- Copyright (C) 2009 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,11 +15,17 @@
 -->
 
 <resources>
-    <!-- Allow Advanced Devices default value to be customised -->
-    <bool name="config_defaultAdvancedDevices">true</bool>
+    <!-- Whether the bluetooth activation confirmation dialogs should be auto dismissed.
+         Can be overridden for specific product builds. -->
+    <bool name="auto_confirm_bluetooth_activation_dialog">True</bool>
 
-    <!-- Flags setup as productivity oriented in which case Downloads app will be presented
-             as Files app. Including showing of the Documents and "advanced" roots. -->
-    <bool name="productivity_device">true</bool>
+    <!-- Whether to show a preference item for the manual in About phone -->
+    <bool name="config_show_manual">true</bool>
+
+    <!-- Whether to show hotspot settings -->
+    <bool name="show_wifi_hotspot_settings">false</bool>
+    
+    <!-- Whether to hide wifi hotspot -->
+    <bool name="hide_wifi_hotspot">true</bool>
     
 </resources>

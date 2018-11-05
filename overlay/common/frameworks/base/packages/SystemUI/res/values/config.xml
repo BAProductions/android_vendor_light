@@ -27,8 +27,7 @@
 
     <bool name="quick_settings_show_full_alarm">true</bool>
     
-    <string name="quick_settings_tiles_default" translatable="false">
-        airplane,cell,wifi,bt,hotspot,usb_tether,cast,location,adb_network,rotation,battery,dnd
+    <string name="quick_settings_tiles_default" translatable="false"> airplane,cell,wifi,bt,hotspot,usb_tether,cast,location,adb_network,rotation,battery,dnd
     </string>
     
     <!-- Tiles native to System UI. Order should match "quick_settings_tiles_default" -->
@@ -56,7 +55,7 @@
     <bool name="enable_volume_ui">true</bool>
     
     <!-- Whether to show the full screen user switcher. -->
-    <bool name="config_enableFullscreenUserSwitcher">false</bool>
+    <bool name="config_enableFullscreenUserSwitcher">true</bool>
     
     <bool name="config_showTaskManagerSwitcher">true</bool>
 </resources>

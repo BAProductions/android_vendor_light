@@ -16,5 +16,25 @@
 -->
 <resources>
     <!-- When true enable gesture setting. -->
-    <bool name="config_gesture_settings_enabled">true</bool>
+    <bool name="config_gesture_settings_enabled">false</bool>
+    
+    <!-- If the Storage Manager settings are enabled. -->
+    <bool name="config_storage_manager_settings_enabled">true</bool>
+    
+    <!-- Does the device allow updating the recovery. -->
+    <bool name="config_enableRecoveryUpdater">false</bool>
+    
+    <!-- Dashboard number of columns -->
+    <integer name="dashboard_num_columns">2</integer>
+    
+    <bool name="config_regional_security_show_password_enable">false</bool>
+
+    <!-- Display ro.product.name above Device model -->
+    <bool name="config_displayDeviceName">true</bool>
+    <bool name="config_regional_usb_tethering_quick_start_enable">true</bool>
+    <bool name="config_hotspot_need_show_activated_dialog">true</bool>
+    <!-- TODO: Junk -->
+    <bool name="config_regional_wifi_calling_notificaion_enable">true</bool>
+    <bool name="wifi_call_enhanced_setting">true</bool>
+    <bool name="tethering_need_show_activated">true</bool>
 </resources>
