@@ -41,7 +41,7 @@ ifeq ($(TARGET_BOOTANIMATION),)
 endif
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := bootanimation.zip
+LOCAL_MODULE := bootanimation.tar
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/media
 
