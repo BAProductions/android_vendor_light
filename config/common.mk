@@ -122,6 +122,7 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     Jelly \
     Launcher3 \
+    Trebuchet \
     Updater \
     WallpaperPicker \
     WeatherProvider\
