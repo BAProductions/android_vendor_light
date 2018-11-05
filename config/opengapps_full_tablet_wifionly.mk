@@ -7,19 +7,19 @@ $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 # Open Gapps Package I Don't Want At All
 #GAPPS_EXCLUDED_PACKAGES := \
         Books \ 
-        CloudPrint2 \ 
-        DMAgent \ 
-        EditorsDocs \ 
-        EditorsSheets \ 
-        EditorsSlides \ 
-        GoogleEarth \ 
-        GoogleHindiIME \ 
-        GoogleJapaneseInput \ 
-        GooglePinyinIME \ 
-        GoogleVrCore \ 
-        GoogleZhuyinIME \ 
-        Hangouts \ 
-        KoreanIME \  
+        CloudPrint2 \
+        DMAgent \
+        EditorsDocs \
+        EditorsSheets \
+        EditorsSlides \
+        GoogleEarth \
+        GoogleHindiIME \
+        GoogleJapaneseInput \
+        GooglePinyinIME \
+        GoogleVrCore \
+        GoogleZhuyinIME \
+        Hangouts \
+        KoreanIME \
         Newsstand \
         PlayGames \
         PlusOne \
@@ -38,9 +38,9 @@ $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # Setting
 GAPPS_PACKAGE_OVERRIDES := \
-        FaceLock \ 
-        libfilterpack_facedetect \ 
-        Drive \ 
+        FaceLock \
+        libfilterpack_facedetect \
+        Drive \
         GoogleCalendarSyncAdapter \
         GoogleContactsSyncAdapter \
         Maps \
