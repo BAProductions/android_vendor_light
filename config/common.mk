@@ -94,7 +94,7 @@ endif
 
 # Bootanimation
 PRODUCT_PACKAGES += \
-    bootanimation/bootanimation.zip
+    bootanimation/bootanimation.tar
 
 # Required CM packages
 PRODUCT_PACKAGES += \
