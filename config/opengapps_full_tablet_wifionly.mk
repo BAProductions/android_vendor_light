@@ -4,10 +4,11 @@ GAPPS_VARIANT := super
 
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
-#Apps I Really Want In My Custom RomGAPPS_PRODUCT_PACKAGES +=\
-        FaceLock \ 
-        libfilterpack_facedetect \ 
-        Drive \ 
+#Apps I Really Want In My Custom Rom
+GAPPS_PRODUCT_PACKAGES += \
+        FaceLock \
+        libfilterpack_facedetect \
+        Drive \
         GoogleCalendarSyncAdapter \
         GoogleContactsSyncAdapter \
         Maps \
@@ -47,20 +48,20 @@ $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # Open Gapps Package I Don't Want At All
 #GAPPS_EXCLUDED_PACKAGES := \
-        Books \ 
-        CloudPrint2 \ 
-        DMAgent \ 
-        EditorsDocs \ 
-        EditorsSheets \ 
-        EditorsSlides \ 
-        GoogleEarth \ 
-        GoogleHindiIME \ 
-        GoogleJapaneseInput \ 
-        GooglePinyinIME \ 
-        GoogleVrCore \ 
-        GoogleZhuyinIME \ 
-        Hangouts \ 
-        KoreanIME \  
+        Books \
+        CloudPrint2 \
+        DMAgent \
+        EditorsDocs \
+        EditorsSheets \
+        EditorsSlides \
+        GoogleEarth \
+        GoogleHindiIME \
+        GoogleJapaneseInput \
+        GooglePinyinIME \
+        GoogleVrCore \
+        GoogleZhuyinIME \
+        Hangouts \
+        KoreanIME \
         Newsstand \
         PlayGames \
         PlusOne \
@@ -79,9 +80,9 @@ $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # Setting
 GAPPS_PACKAGE_OVERRIDES := \
-        FaceLock \ 
-        libfilterpack_facedetect \ 
-        Drive \ 
+        FaceLock \
+        libfilterpack_facedetect \
+        Drive \
         GoogleCalendarSyncAdapter \
         GoogleContactsSyncAdapter \
         Maps \
