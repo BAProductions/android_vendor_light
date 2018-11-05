@@ -54,8 +54,5 @@
     
     <bool name="enable_volume_ui">true</bool>
     
-    <!-- Whether to show the full screen user switcher. -->
-    <bool name="config_enableFullscreenUserSwitcher">true</bool>
-    
     <bool name="config_showTaskManagerSwitcher">true</bool>
 </resources>
