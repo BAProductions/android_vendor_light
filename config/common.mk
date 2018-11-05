@@ -125,7 +125,8 @@ PRODUCT_PACKAGES += \
     Updater \
     WallpaperPicker \
     WeatherProvider\
-    Notepad
+    Notepad \
+    ThemeChooser
     #Venus \
     #ThemeChooser
     #Notepad \
