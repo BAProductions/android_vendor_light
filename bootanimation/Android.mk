@@ -15,7 +15,7 @@
 #
 
 define build-bootanimation
-    sh vendor/mk/bootanimation/generate-bootanimation.sh \
+    sh vendor/light/bootanimation/generate-bootanimation.sh \
     $(TARGET_SCREEN_WIDTH) \
     $(TARGET_SCREEN_HEIGHT) \
     $(TARGET_BOOTANIMATION_HALF_RES)
