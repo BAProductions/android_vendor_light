@@ -4,7 +4,7 @@ WIDTH="$1"
 HEIGHT="$2"
 HALF_RES="$3"
 
-SRC="$ANDROID_BUILD_TOP/vendor/mk/bootanimation"
+SRC="$ANDROID_BUILD_TOP/vendor/light/bootanimation"
 OUT="$ANDROID_PRODUCT_OUT/obj/BOOTANIMATION"
 
 if [ "$HEIGHT" -lt "$WIDTH" ]; then
