@@ -45,7 +45,7 @@ GAPPS_PRODUCT_PACKAGES +=\
 		PrebuiltGmsCore \
 		PrebuiltGmsCoreInstantApps \
 		GmsCoreSetupPrebuilt \
-
+		
 GAPPS_EXCLUDED_PACKAGES := \
 		Books \
 		CloudPrint2 \
@@ -76,6 +76,12 @@ GAPPS_EXCLUDED_PACKAGES := \
 		GoogleExtShared \
 		PixelLauncher \
 		DigitalWellbeing
+		GoogleDialer \
+		FitnessPrebuilt \
+		Wallet \
+		CarrierServices \
+		PrebuiltBugle \
+		TagGoogle
 
 # Setting
 GAPPS_PACKAGE_OVERRIDES := \
