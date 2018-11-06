@@ -3,7 +3,7 @@ PRODUCT_BRAND ?= LightOS
 Base_Vendor_Name := cm
 Base_Vendor_Name_full := cyanogenmod
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-$(call inherit-product, vendor/light/config/MakeBootScreen.mk)
+#$(call inherit-product, vendor/light/config/MakeBootScreen.mk)
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase=android-google
@@ -93,8 +93,8 @@ include vendor/$(Base_Vendor_Name)/config/twrp.mk
 endif
 
 # Bootanimation
-PRODUCT_PACKAGES += \
-    bootanimation.zip
+#PRODUCT_PACKAGES += \
+    #bootanimation.zip
 
 # Required CM packages
 PRODUCT_PACKAGES += \
@@ -135,8 +135,8 @@ PRODUCT_PACKAGES += \
     #Polyhymnia \
 
 # ViPER4Android = Better Sound Hell Yeah Im Keeping This Apps
-PRODUCT_PACKAGES += \
-    ViPER4Android
+#PRODUCT_PACKAGES += \
+    #ViPER4Android
 
 # Exchange support
 PRODUCT_PACKAGES += \
@@ -373,4 +373,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 -include vendor/cyngn/product.mk
 
 $(call prepend-product-if-exists, vendor/extra/product.mk)
-$(call inherit-product, vendor/light/config/ResetBootScreen.mk)
+#$(call inherit-product, vendor/light/config/ResetBootScreen.mk)
