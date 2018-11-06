@@ -75,7 +75,7 @@ GAPPS_EXCLUDED_PACKAGES := \
 		GoogleHome \
 		GoogleExtShared \
 		PixelLauncher \
-		DigitalWellbeing
+		DigitalWellbeing \
 		GoogleDialer \
 		FitnessPrebuilt \
 		Wallet \
