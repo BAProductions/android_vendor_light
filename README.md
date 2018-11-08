@@ -1,5 +1,5 @@
 # LightOS Vender File
----------------------
+========
 Work In Progress. 
 May add more or configure more base on my need 
 ---------------------
