@@ -21,4 +21,3 @@ $(call inherit-product, vendor/light/config/opengapps_full_tv.mk)
 $(call inherit-product, vendor/light/config/opengapps_full_tablet_wifionly.mk)
 
 $(call inherit-product, vendor/light/config/opengapps_full_phone.mk)
-----------------------
