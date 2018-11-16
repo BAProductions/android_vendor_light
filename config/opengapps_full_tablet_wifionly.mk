@@ -37,15 +37,14 @@ GAPPS_PRODUCT_PACKAGES +=\
 		Photos \
 		SetupWizard \
 		GCS \
-		Phonesky \
 		CalendarGooglePrebuilt \
 		PrebuiltDeskClockGoogle \
 		PrebuiltExchange3Google \
 		PrebuiltGmail \
 		PrebuiltGmsCore \
 		PrebuiltGmsCoreInstantApps \
-		GmsCoreSetupPrebuilt \
-		
+		GmsCoreSetupPrebuilt
+
 GAPPS_EXCLUDED_PACKAGES := \
 		Books \
 		CloudPrint2 \
@@ -81,7 +80,8 @@ GAPPS_EXCLUDED_PACKAGES := \
 		Wallet \
 		CarrierServices \
 		PrebuiltBugle \
-		TagGoogle
+		TagGoogle \
+		Phonesky
 
 # Setting
 GAPPS_PACKAGE_OVERRIDES := \
@@ -116,7 +116,6 @@ GAPPS_PACKAGE_OVERRIDES := \
 		Photos \
 		SetupWizard \
 		GCS \
-		Phonesky \
 		CalendarGooglePrebuilt \
 		PrebuiltDeskClockGoogle \
 		PrebuiltExchange3Google \
