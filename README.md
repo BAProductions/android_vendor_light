@@ -5,7 +5,8 @@ May add more or configure more base on my need
 ---------------------
 Adds Open Gapps
 base on device size & type.
-New temp default dallpaper from @MoKee
+New temp default wallpaper from @MoKee
+Adding Note app from @MoKee and theme it to match the os
 https://github.com/MoKee/
 ---------------------
 #Open Gapps adder files are for personal use only.
