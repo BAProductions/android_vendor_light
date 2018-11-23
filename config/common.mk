@@ -93,8 +93,8 @@ include vendor/$(Base_Vendor_Name)/config/twrp.mk
 endif
 
 # Bootanimation
-#PRODUCT_PACKAGES += \
-    #bootanimation.zip
+PRODUCT_PACKAGES += \
+    bootanimation.zip
 
 # Required CM packages
 PRODUCT_PACKAGES += \
@@ -122,6 +122,7 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     Jelly \
     Launcher3 \
+    PCKeyboard \
     Trebuchet \
     Updater \
     WallpaperPicker \
