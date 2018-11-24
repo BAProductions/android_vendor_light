@@ -41,6 +41,8 @@ GAPPS_PRODUCT_PACKAGES +=\
 		PrebuiltDeskClockGoogle \
 		PrebuiltExchange3Google \
 		PrebuiltGmail \
+		Phonesky \
+
 
 GAPPS_EXCLUDED_PACKAGES := \
 		Books \
@@ -81,7 +83,6 @@ GAPPS_EXCLUDED_PACKAGES := \
 		PrebuiltGmsCore \
 		PrebuiltGmsCoreInstantApps \
 		GmsCoreSetupPrebuilt
-		Phonesky
 
 # Setting
 GAPPS_PACKAGE_OVERRIDES := \
