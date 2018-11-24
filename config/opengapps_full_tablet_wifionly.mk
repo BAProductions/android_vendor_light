@@ -120,8 +120,6 @@ GAPPS_PACKAGE_OVERRIDES := \
 		PrebuiltDeskClockGoogle \
 		PrebuiltExchange3Google \
 		PrebuiltGmail \
-		PrebuiltGmsCore \
-		PrebuiltGmsCoreInstantApps \
 		GmsCoreSetupPrebuilt
 
 GAPPS_FORCE_MATCHING_DPI := true
