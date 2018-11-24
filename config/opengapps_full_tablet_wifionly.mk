@@ -41,9 +41,6 @@ GAPPS_PRODUCT_PACKAGES +=\
 		PrebuiltDeskClockGoogle \
 		PrebuiltExchange3Google \
 		PrebuiltGmail \
-		PrebuiltGmsCore \
-		PrebuiltGmsCoreInstantApps \
-		GmsCoreSetupPrebuilt
 
 GAPPS_EXCLUDED_PACKAGES := \
 		Books \
@@ -81,6 +78,9 @@ GAPPS_EXCLUDED_PACKAGES := \
 		CarrierServices \
 		PrebuiltBugle \
 		TagGoogle \
+		PrebuiltGmsCore \
+		PrebuiltGmsCoreInstantApps \
+		GmsCoreSetupPrebuilt
 		Phonesky
 
 # Setting
