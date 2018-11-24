@@ -120,7 +120,6 @@ GAPPS_PACKAGE_OVERRIDES := \
 		CalendarGooglePrebuilt \
 		PrebuiltDeskClockGoogle \
 		PrebuiltExchange3Google \
-		PrebuiltGmail \
-		GmsCoreSetupPrebuilt
+		PrebuiltGmail
 
 GAPPS_FORCE_MATCHING_DPI := true
