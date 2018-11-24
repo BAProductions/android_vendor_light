@@ -128,6 +128,7 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     WeatherProvider\
     Notepad \
+    Note \
     ThemeChooser
     #Venus \
     #ThemeChooser
