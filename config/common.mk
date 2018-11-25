@@ -122,6 +122,7 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     Jelly \
     FlickLauncher \
+    Launcher3 \
     PCKeyboard \
     Trebuchet \
     Updater \
