@@ -1,11 +1,11 @@
-# Open Gapps PreLoaded
+#Open Gapps PreLoaded
 
 GAPPS_VARIANT := super
 
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
-# Open Gapps Package I Don't Want At All
+
 #Apps I Really Want In My Custom Rom
-GAPPS_PRODUCT_PACKAGES +=\
+GAPPS_PRODUCT_PACKAGES += \
 		FaceLock \
 		libfilterpack_facedetect \
 		Drive \
@@ -43,7 +43,7 @@ GAPPS_PRODUCT_PACKAGES +=\
 		PrebuiltGmail \
 		Phonesky \
 
-
+# Open Gapps Package I Don't Want At All
 GAPPS_EXCLUDED_PACKAGES := \
 		Books \
 		CloudPrint2 \

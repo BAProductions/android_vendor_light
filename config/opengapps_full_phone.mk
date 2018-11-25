@@ -3,7 +3,7 @@
 GAPPS_VARIANT := super
 
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
-# Open Gapps Package I Don't Want At All
+
 #Apps I Really Want In My Custom Rom
 GAPPS_PRODUCT_PACKAGES +=\
 		FaceLock \
@@ -42,6 +42,7 @@ GAPPS_PRODUCT_PACKAGES +=\
 		PrebuiltDeskClockGoogle \
 		PrebuiltExchange3Google \
 		PrebuiltGmail \
+		Phonesky \
 		PrebuiltGmsCore \
 		PrebuiltGmsCoreInstantApps \
 		GmsCoreSetupPrebuilt \
@@ -50,9 +51,9 @@ GAPPS_PRODUCT_PACKAGES +=\
 		Wallet \
 		CarrierServices \
 		PrebuiltBugle \
-		TagGoogle \
-		Phonesky 
+		TagGoogle 
 
+# Open Gapps Package I Don't Want At All
 GAPPS_EXCLUDED_PACKAGES := \
 		Books \
 		CloudPrint2 \
@@ -117,10 +118,12 @@ GAPPS_PACKAGE_OVERRIDES := \
 		Photos \
 		SetupWizard \
 		GCS \
+		Phonesky \
 		CalendarGooglePrebuilt \
 		PrebuiltDeskClockGoogle \
 		PrebuiltExchange3Google \
 		PrebuiltGmail \
+		Phonesky \
 		PrebuiltGmsCore \
 		PrebuiltGmsCoreInstantApps \
 		GmsCoreSetupPrebuilt \
@@ -129,7 +132,6 @@ GAPPS_PACKAGE_OVERRIDES := \
 		Wallet \
 		CarrierServices \
 		PrebuiltBugle \
-		TagGoogle \
-		Phonesky
+		TagGoogle 
 
 GAPPS_FORCE_MATCHING_DPI := true
