@@ -121,7 +121,7 @@ PRODUCT_PACKAGES += \
     LineageSetupWizard \
     ExactCalculator \
     Jelly \
-    Launcher3 \
+    FlickLauncher \
     PCKeyboard \
     Trebuchet \
     Updater \
