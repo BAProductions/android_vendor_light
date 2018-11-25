@@ -1,4 +1,4 @@
-# Open Gapps PreLoaded
+#Open Gapps PreLoaded
 
 GAPPS_VARIANT := super
 

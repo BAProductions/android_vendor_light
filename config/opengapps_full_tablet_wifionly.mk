@@ -5,7 +5,7 @@ GAPPS_VARIANT := super
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 #Apps I Really Want In My Custom Rom
-GAPPS_PRODUCT_PACKAGES += \
+GAPPS_PRODUCT_PACKAGES +=\
 		FaceLock \
 		libfilterpack_facedetect \
 		Drive \
@@ -37,11 +37,15 @@ GAPPS_PRODUCT_PACKAGES += \
 		Photos \
 		SetupWizard \
 		GCS \
+		Phonesky \
 		CalendarGooglePrebuilt \
 		PrebuiltDeskClockGoogle \
 		PrebuiltExchange3Google \
 		PrebuiltGmail \
 		Phonesky \
+		PrebuiltGmsCore \
+		PrebuiltGmsCoreInstantApps \
+		GmsCoreSetupPrebuilt
 
 # Open Gapps Package I Don't Want At All
 GAPPS_EXCLUDED_PACKAGES := \
@@ -79,10 +83,7 @@ GAPPS_EXCLUDED_PACKAGES := \
 		Wallet \
 		CarrierServices \
 		PrebuiltBugle \
-		TagGoogle \
-		PrebuiltGmsCore \
-		PrebuiltGmsCoreInstantApps \
-		GmsCoreSetupPrebuilt
+		TagGoogle 
 
 # Setting
 GAPPS_PACKAGE_OVERRIDES := \
@@ -117,9 +118,14 @@ GAPPS_PACKAGE_OVERRIDES := \
 		Photos \
 		SetupWizard \
 		GCS \
+		Phonesky \
 		CalendarGooglePrebuilt \
 		PrebuiltDeskClockGoogle \
 		PrebuiltExchange3Google \
-		PrebuiltGmail
+		PrebuiltGmail \
+		Phonesky \
+		PrebuiltGmsCore \
+		PrebuiltGmsCoreInstantApps \
+		GmsCoreSetupPrebuilt 
 
 GAPPS_FORCE_MATCHING_DPI := true
