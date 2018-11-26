@@ -132,6 +132,7 @@ PRODUCT_PACKAGES += \
     Notes \
     Matlog \
     ThemeInterfacer \
+    masquerade \
     SnapdragonCamera \
     ThemeChooser
     #Venus \
