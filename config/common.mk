@@ -130,6 +130,7 @@ PRODUCT_PACKAGES += \
     WeatherProvider\
     Notepad \
     Notes \
+    Matlog \
     ThemeChooser
     #Venus \
     #ThemeChooser
