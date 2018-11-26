@@ -2,8 +2,6 @@
 
 GAPPS_VARIANT := super
 
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
-
 #Apps I Really Want In My Custom Rom
 GAPPS_PRODUCT_PACKAGES +=\
 		FaceLock \
@@ -135,3 +133,5 @@ GAPPS_PACKAGE_OVERRIDES := \
 		TagGoogle 
 
 GAPPS_FORCE_MATCHING_DPI := true
+
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
