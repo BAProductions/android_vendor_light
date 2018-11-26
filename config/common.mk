@@ -131,6 +131,7 @@ PRODUCT_PACKAGES += \
     Notepad \
     Notes \
     Matlog \
+    Substratum \
     ThemeChooser
     #Venus \
     #ThemeChooser
