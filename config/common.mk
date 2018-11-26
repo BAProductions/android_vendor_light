@@ -130,7 +130,7 @@ PRODUCT_PACKAGES += \
     WeatherProvider\
     Notepad \
     Notes \
-    Matlog \
+    MatLog \
     ThemeInterfacer \
     masquerade \
     SnapdragonCamera \
