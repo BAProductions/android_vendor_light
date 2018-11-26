@@ -132,6 +132,6 @@ GAPPS_PACKAGE_OVERRIDES := \
 		PrebuiltBugle \
 		TagGoogle 
 
-GAPPS_FORCE_MATCHING_DPI := true
-
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+
+GAPPS_FORCE_MATCHING_DPI := true
