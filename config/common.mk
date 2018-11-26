@@ -132,6 +132,7 @@ PRODUCT_PACKAGES += \
     Notes \
     Matlog \
     Substratum \
+    SnapdragonCamera \
     ThemeChooser
     #Venus \
     #ThemeChooser
