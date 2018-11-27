@@ -42,7 +42,11 @@ GAPPS_PRODUCT_PACKAGES +=\
 		PrebuiltGmail \
 		PrebuiltGmsCore \
 		PrebuiltGmsCoreInstantApps \
-		GmsCoreSetupPrebuilt
+		GmsCoreSetupPrebuilt \
+		GoogleDialer \
+		CarrierServices \
+		PrebuiltBugle \
+		
 
 # Open Gapps Package I Don't Want At All
 GAPPS_EXCLUDED_PACKAGES := \
@@ -75,11 +79,8 @@ GAPPS_EXCLUDED_PACKAGES := \
 		GoogleExtShared \
 		PixelLauncher \
 		DigitalWellbeing \
-		GoogleDialer \
 		FitnessPrebuilt \
 		Wallet \
-		CarrierServices \
-		PrebuiltBugle \
 		TagGoogle 
 
 # Setting
@@ -122,7 +123,10 @@ GAPPS_PACKAGE_OVERRIDES := \
 		PrebuiltGmail \
 		PrebuiltGmsCore \
 		PrebuiltGmsCoreInstantApps \
-		GmsCoreSetupPrebuilt 
+		GmsCoreSetupPrebuilt \
+		GoogleDialer \
+		CarrierServices \
+		PrebuiltBugle \
 
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
