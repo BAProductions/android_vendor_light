@@ -2,8 +2,39 @@
 
 GAPPS_VARIANT := super
 
-#Apps I Really Want In My Custom Rom
-GAPPS_PRODUCT_PACKAGES +=\
+#Switch For Adding google NFC Apps
+HAS_NFC =: false
+ifeq ($(HAS_NFC), true)
+#Add Google NFC
+GAPPS_PRODUCT_PACKAGES += \
+		TagGoogle 
+
+# Setting
+GAPPS_PACKAGE_OVERRIDES := \
+		TagGoogle 
+endif
+
+#Code For Disabling None LTE Tablet Apps Like FitnessPrebuilt & Wallet
+IS_LTE_TABLET =: false
+ifeq ($(IS_LTE_TABLET), false)
+#Extra Apps I Really Want In My Custom Rom For Phone
+GAPPS_PRODUCT_PACKAGES += \
+		FitnessPrebuilt \
+		Wallet
+
+# Setting
+GAPPS_PACKAGE_OVERRIDES := \
+		FitnessPrebuilt \
+		Wallet
+else
+#Open Gapps package I don't need for LTE tablet
+GAPPS_EXCLUDED_PACKAGES := \
+		FitnessPrebuilt \
+		Wallet
+endif
+
+#Extra Apps I Really Want In My Custom Rom For Phone
+GAPPS_PRODUCT_PACKAGES += \
 		FaceLock \
 		libfilterpack_facedetect \
 		Drive \
@@ -40,18 +71,16 @@ GAPPS_PRODUCT_PACKAGES +=\
 		PrebuiltDeskClockGoogle \
 		PrebuiltExchange3Google \
 		PrebuiltGmail \
-		Phonesky \
 		PrebuiltGmsCore \
 		PrebuiltGmsCoreInstantApps \
 		GmsCoreSetupPrebuilt \
 		GoogleDialer \
-		FitnessPrebuilt \
-		Wallet \
 		CarrierServices \
 		PrebuiltBugle \
-		TagGoogle 
+		CarrierServices \
+		PrebuiltBugle \
 
-# Open Gapps Package I Don't Want At All
+#Open Gapps Package I Don't Want At All
 GAPPS_EXCLUDED_PACKAGES := \
 		Books \
 		CloudPrint2 \
@@ -121,7 +150,6 @@ GAPPS_PACKAGE_OVERRIDES := \
 		PrebuiltDeskClockGoogle \
 		PrebuiltExchange3Google \
 		PrebuiltGmail \
-		Phonesky \
 		PrebuiltGmsCore \
 		PrebuiltGmsCoreInstantApps \
 		GmsCoreSetupPrebuilt \
