@@ -21,7 +21,7 @@
      0. Off
      1. Right
      2. Left -->
-    <integer name="def_qs_quick_pulldown">2</integer>
+    <integer name="def_qs_quick_pulldown">1</integer>
     
     <!-- Default for CMSettings.System.STATUS_BAR_BATTERY_STYLE
         * 0: Display the battery as icon in portrait mode

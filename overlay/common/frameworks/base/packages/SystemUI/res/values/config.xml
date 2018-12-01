@@ -38,13 +38,16 @@
         airplane,cell,wifi,bt,cast,location,rotation,battery,dnd
     </string>
     
+    <!-- Whether or not we show the number in the bar. -->
+    <bool name="config_statusBarShowNumber">true</bool>
+    
     <bool name="quick_settings_show_full_alarm">true</bool>
     
     <!-- Whether QuickSettings is in a phone landscape -->
     <bool name="quick_settings_wide">false</bool>
     
     <!-- The number of columns in the QuickSettings -->
-    <integer name="quick_settings_num_columns">4</integer>
+    <integer name="quick_settings_num_columns">8</integer>
     
     <!-- The number of rows in the QuickSettings -->
     <integer name="quick_settings_num_rows">1</integer>

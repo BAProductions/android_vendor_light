@@ -1,6 +1,6 @@
 #Open Gapps PreLoaded
 
-GAPPS_VARIANT := super
+GAPPS_VARIANT := nano
 
 #Apps I Really Want In My Custom Rom
 GAPPS_PRODUCT_PACKAGES +=\
@@ -43,44 +43,6 @@ GAPPS_PRODUCT_PACKAGES +=\
 		PrebuiltGmsCore \
 		PrebuiltGmsCoreInstantApps \
 		GmsCoreSetupPrebuilt
-
-# Open Gapps Package I Don't Want At All
-GAPPS_EXCLUDED_PACKAGES := \
-		Books \
-		CloudPrint2 \
-		DMAgent \
-		EditorsDocs \
-		EditorsSheets \
-		EditorsSlides \
-		GoogleEarth \
-		GoogleHindiIME \
-		GoogleJapaneseInput \
-		GooglePinyinIME \
-		GoogleVrCore \
-		GoogleZhuyinIME \
-		Hangouts \
-		KoreanIME \
-		Newsstand \
-		PlayGames \
-		PlusOne \
-		PrebuiltKeep \
-		Street \
-		TranslatePrebuilt \
-		Tycho \
-		Videos \
-		Wallpapers \
-		MarkupGoogle \
-		ActionsServices \
-		GoogleHome \
-		GoogleExtShared \
-		PixelLauncher \
-		DigitalWellbeing \
-		GoogleDialer \
-		FitnessPrebuilt \
-		Wallet \
-		CarrierServices \
-		PrebuiltBugle \
-		TagGoogle 
 
 # Setting
 GAPPS_PACKAGE_OVERRIDES := \
