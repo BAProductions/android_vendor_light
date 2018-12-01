@@ -58,7 +58,6 @@ GAPPS_PACKAGE_OVERRIDES := \
 		GoogleBackupTransport \
 		GoogleLoginService \
 		GooglePartnerSetup \
-		GoogleCamera \
 		GoogleContacts \
 		GooglePrintRecommendationService \
 		GoogleServicesFramework \
