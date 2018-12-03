@@ -1,6 +1,6 @@
-#Open Gapps PreLoaded
-
+#Open Gapps PreLoaded Please Add To Each Device
 GAPPS_VARIANT := nano
+DEVICE_SUPPORT_NFC :=true
 
 #Apps I Really Want In My Custom Rom
 GAPPS_PRODUCT_PACKAGES +=\
@@ -16,7 +16,6 @@ GAPPS_PRODUCT_PACKAGES +=\
 		GoogleBackupTransport \
 		GoogleLoginService \
 		GooglePartnerSetup \
-		GoogleCamera \
 		GoogleContacts \
 		GooglePrintRecommendationService \
 		GoogleServicesFramework \
@@ -83,7 +82,31 @@ GAPPS_PACKAGE_OVERRIDES := \
 		PrebuiltGmail \
 		PrebuiltGmsCore \
 		PrebuiltGmsCoreInstantApps \
-		GmsCoreSetupPrebuilt 
+		GmsCoreSetupPrebuilt
+
+#Add TagGoogle & Wallet If BOARD_HAVE_NFC :=true & DEVICE_SUPPORT_NFC :=true
+ifeq ($(BOARD_HAVE_NFC), true)
+	ifeq ($(DEVICE_SUPPORT_NFC), true)
+	#Add Google NFC
+		GAPPS_PRODUCT_PACKAGES += \
+				TagGoogle
+
+		GAPPS_PACKAGE_OVERRIDES := \
+				TagGoogle
+	endif
+endif
+
+#Add FitnessPrebuilt & Wallet If PRODUCT_CHARACTERISTICS :=phone
+ifeq ($(PRODUCT_CHARACTERISTICS), phone)
+#Extra Apps I Really Want In My Custom Rom For Phone
+GAPPS_PRODUCT_PACKAGES += \
+		FitnessPrebuilt \
+		Wallet
+
+GAPPS_PACKAGE_OVERRIDES := \
+		FitnessPrebuilt \
+		Wallet
+endif
 
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
