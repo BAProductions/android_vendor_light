@@ -86,14 +86,13 @@ GAPPS_PACKAGE_OVERRIDES := \
 
 #Add TagGoogle & Wallet If BOARD_HAVE_NFC :=true & DEVICE_SUPPORT_NFC :=true
 ifeq ($(BOARD_HAVE_NFC), true)
-	ifeq ($(DEVICE_SUPPORT_NFC), true)
-	#Add Google NFC
-		GAPPS_PRODUCT_PACKAGES += \
-				TagGoogle
+#Add Google NFC
+	GAPPS_PRODUCT_PACKAGES += \
+			TagGoogle
 
-		GAPPS_PACKAGE_OVERRIDES := \
-				TagGoogle
-	endif
+	GAPPS_PACKAGE_OVERRIDES := \
+			TagGoogle
+
 endif
 
 #Add FitnessPrebuilt & Wallet If PRODUCT_CHARACTERISTICS :=phone
