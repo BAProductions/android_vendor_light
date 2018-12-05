@@ -1,89 +1,90 @@
-#Open Gapps PreLoaded Please Add To Each Device
-GAPPS_VARIANT := nano
-DEVICE_SUPPORT_NFC :=true
+ifeq ($(DEVICE_SUPPORT_DJ), true)
+	#Open Gapps PreLoaded Please Add To Each Device
+	GAPPS_VARIANT := nano
+	#Apps I Really Want In My Custom Rom
+	GAPPS_PRODUCT_PACKAGES +=\
+			FaceLock \
+			libfilterpack_facedetect \
+			Drive \
+			GoogleCalendarSyncAdapter \
+			GoogleContactsSyncAdapter \
+			Maps \
+			YouTube \
+			talkback \
+			CalculatorGoogle \
+			GoogleBackupTransport \
+			GoogleLoginService \
+			GooglePartnerSetup \
+			GoogleContacts \
+			GooglePrintRecommendationService \
+			GoogleServicesFramework \
+			GoogleTTS \
+			LatinImeGoogle \
+			Music2 \
+			PixelLauncherIcons \
+			WebViewGoogle \
+			Turbo \
+			AndroidPlatformServices \
+			Chrome \
+			GoogleExtServices \
+			GoogleFeedback \
+			GoogleOneTimeInitializer \
+			GooglePackageInstaller \
+			Photos \
+			SetupWizard \
+			GCS \
+			Phonesky \
+			CalendarGooglePrebuilt \
+			PrebuiltDeskClockGoogle \
+			PrebuiltExchange3Google \
+			PrebuiltGmail \
+			PrebuiltGmsCore \
+			PrebuiltGmsCoreInstantApps \
+			GmsCoreSetupPrebuilt
 
-#Apps I Really Want In My Custom Rom
-GAPPS_PRODUCT_PACKAGES +=\
-		FaceLock \
-		libfilterpack_facedetect \
-		Drive \
-		GoogleCalendarSyncAdapter \
-		GoogleContactsSyncAdapter \
-		Maps \
-		YouTube \
-		talkback \
-		CalculatorGoogle \
-		GoogleBackupTransport \
-		GoogleLoginService \
-		GooglePartnerSetup \
-		GoogleContacts \
-		GooglePrintRecommendationService \
-		GoogleServicesFramework \
-		GoogleTTS \
-		LatinImeGoogle \
-		Music2 \
-		PixelLauncherIcons \
-		WebViewGoogle \
-		Turbo \
-		AndroidPlatformServices \
-		Chrome \
-		GoogleExtServices \
-		GoogleFeedback \
-		GoogleOneTimeInitializer \
-		GooglePackageInstaller \
-		Photos \
-		SetupWizard \
-		GCS \
-		Phonesky \
-		CalendarGooglePrebuilt \
-		PrebuiltDeskClockGoogle \
-		PrebuiltExchange3Google \
-		PrebuiltGmail \
-		PrebuiltGmsCore \
-		PrebuiltGmsCoreInstantApps \
-		GmsCoreSetupPrebuilt
-
-# Setting
-GAPPS_PACKAGE_OVERRIDES := \
-		FaceLock \
-		libfilterpack_facedetect \
-		Drive \
-		GoogleCalendarSyncAdapter \
-		GoogleContactsSyncAdapter \
-		Maps \
-		YouTube \
-		talkback \
-		CalculatorGoogle \
-		GoogleBackupTransport \
-		GoogleLoginService \
-		GooglePartnerSetup \
-		GoogleContacts \
-		GooglePrintRecommendationService \
-		GoogleServicesFramework \
-		GoogleTTS \
-		LatinImeGoogle \
-		Music2 \
-		PixelLauncherIcons \
-		WebViewGoogle \
-		Turbo \
-		AndroidPlatformServices \
-		Chrome \
-		GoogleExtServices \
-		GoogleFeedback \
-		GoogleOneTimeInitializer \
-		GooglePackageInstaller \
-		Photos \
-		SetupWizard \
-		GCS \
-		Phonesky \
-		CalendarGooglePrebuilt \
-		PrebuiltDeskClockGoogle \
-		PrebuiltExchange3Google \
-		PrebuiltGmail \
-		PrebuiltGmsCore \
-		PrebuiltGmsCoreInstantApps \
-		GmsCoreSetupPrebuilt
-
+	# Setting
+	GAPPS_PACKAGE_OVERRIDES := \
+			FaceLock \
+			libfilterpack_facedetect \
+			Drive \
+			GoogleCalendarSyncAdapter \
+			GoogleContactsSyncAdapter \
+			Maps \
+			YouTube \
+			talkback \
+			CalculatorGoogle \
+			GoogleBackupTransport \
+			GoogleLoginService \
+			GooglePartnerSetup \
+			GoogleContacts \
+			GooglePrintRecommendationService \
+			GoogleServicesFramework \
+			GoogleTTS \
+			LatinImeGoogle \
+			Music2 \
+			PixelLauncherIcons \
+			WebViewGoogle \
+			Turbo \
+			AndroidPlatformServices \
+			Chrome \
+			GoogleExtServices \
+			GoogleFeedback \
+			GoogleOneTimeInitializer \
+			GooglePackageInstaller \
+			Photos \
+			SetupWizard \
+			GCS \
+			Phonesky \
+			CalendarGooglePrebuilt \
+			PrebuiltDeskClockGoogle \
+			PrebuiltExchange3Google \
+			PrebuiltGmail \
+			PrebuiltGmsCore \
+			PrebuiltGmsCoreInstantApps \
+			GmsCoreSetupPrebuilt
+else
+	GAPPS_VARIANT := mini
+endif
 #Add TagGoogle & Wallet If BOARD_HAVE_NFC :=true & DEVICE_SUPPORT_NFC :=true
 ifeq ($(BOARD_HAVE_NFC), true)
 #Add Google NFC
@@ -92,7 +93,6 @@ ifeq ($(BOARD_HAVE_NFC), true)
 
 	GAPPS_PACKAGE_OVERRIDES := \
 			TagGoogle
-
 endif
 
 #Add FitnessPrebuilt & Wallet If PRODUCT_CHARACTERISTICS :=phone
