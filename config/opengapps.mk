@@ -87,7 +87,7 @@ else
 endif
 #Add TagGoogle & Wallet If BOARD_HAVE_NFC :=true & DEVICE_SUPPORT_NFC :=true
 ifeq ($(BOARD_HAVE_NFC), true)
-#Add Google NFC
+	#Add Google NFC
 	GAPPS_PRODUCT_PACKAGES += \
 			TagGoogle
 
@@ -97,14 +97,14 @@ endif
 
 #Add FitnessPrebuilt & Wallet If PRODUCT_CHARACTERISTICS :=phone
 ifeq ($(PRODUCT_CHARACTERISTICS), phone)
-#Extra Apps I Really Want In My Custom Rom For Phone
-GAPPS_PRODUCT_PACKAGES += \
-		FitnessPrebuilt \
-		Wallet
+	#Extra Apps I Really Want In My Custom Rom For Phone
+	GAPPS_PRODUCT_PACKAGES += \
+			FitnessPrebuilt \
+			Wallet
 
-GAPPS_PACKAGE_OVERRIDES := \
-		FitnessPrebuilt \
-		Wallet
+	GAPPS_PACKAGE_OVERRIDES := \
+			FitnessPrebuilt \
+			Wallet
 endif
 
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
