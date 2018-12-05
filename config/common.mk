@@ -134,7 +134,7 @@ PRODUCT_PACKAGES += \
     ThemeInterfacer \
     masquerade \
     SnapdragonCamera \
-    PixelLauncher \
+    PixelLauncher3 \
     MKexplorer \
     ThemeChooser
     #Venus \

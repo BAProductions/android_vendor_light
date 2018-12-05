@@ -18,7 +18,7 @@ include $(BUILD_PREBUILT)
 
 # TEMP: Pixel Launcher
 include $(CLEAR_VARS)
-LOCAL_MODULE := PixelLauncher
+LOCAL_MODULE := PixelLauncher3
 LOCAL_MODULE_OWNER := lineage
 LOCAL_SRC_FILES := app/Launcher3-aosp-debug.apk
 LOCAL_MODULE_TAGS := optional
