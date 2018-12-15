@@ -95,16 +95,30 @@ ifeq ($(BOARD_HAVE_NFC), true)
 			TagGoogle
 endif
 
+#Add GoogleDialer CarrierServices & PrebuiltBugle If HAS_DATALINE :=true
+ifeq ($(HAS_DATALINE), true)
+	#Extra Apps I Really Want In My Custom Rom For Phone
+	GAPPS_PRODUCT_PACKAGES += \
+			GoogleDialer \
+			CarrierServices \
+			PrebuiltBugle \
+
+	GAPPS_PACKAGE_OVERRIDES := \
+			GoogleDialer \
+			CarrierServices \
+			PrebuiltBugle \
+endif
+
 #Add FitnessPrebuilt & Wallet If PRODUCT_CHARACTERISTICS :=phone
 ifeq ($(PRODUCT_CHARACTERISTICS), phone)
 	#Extra Apps I Really Want In My Custom Rom For Phone
 	GAPPS_PRODUCT_PACKAGES += \
 			FitnessPrebuilt \
-			Wallet
+			Wallet \
 
 	GAPPS_PACKAGE_OVERRIDES := \
 			FitnessPrebuilt \
-			Wallet
+			Wallet \
 endif
 
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
