@@ -4,21 +4,33 @@ Work In Progress.
 May add more or configure more base on my need 
 ---------------------
 Adds Open Gapps
-base on device size & type.
+base on device type and feature.
 New temp default wallpaper from @MoKee
 Adding Note app from @MoKee and theme it to match the os
 https://github.com/MoKee/
 ---------------------
 #Open Gapps adder files are for personal use only.
 ---------------------
-$(call inherit-product, vendor/light/config/opengapps_mini_tv.mk)
+**This add my favourite gapps to my devices(Personal Build) if not it defaults to GAPPS_VARIANT := mini**
 
-$(call inherit-product, vendor/light/config/opengapps_mini_tablet_wifionly.mk)
+	#This add my favourite gapps to my devices(Personal Build) if not it defaults to GAPPS_VARIANT := mini.
+    DEVICE_SUPPORT_DJ :=true
 
-$(call inherit-product, vendor/light/config/opengapps_mini_phone.mk)
+**Add TagGoogle & Wallet If BOARD_HAVE_NFC :=true & DEVICE_SUPPORT_NFC :=true**
 
-$(call inherit-product, vendor/light/config/opengapps_full_tv.mk)
+    #Add TagGoogle & Wallet If BOARD_HAVE_NFC :=true & DEVICE_SUPPORT_NFC :=true.
+    BOARD_HAVE_NFC :=true
+**Add GoogleDialer CarrierServices & PrebuiltBugle If DEVICE_HAS_DATALINE :=true**
+	
+	#Add GoogleDialer CarrierServices & PrebuiltBugle If DEVICE_HAS_DATALINE :=true.
+    DEVICE_HAS_DATALINE :=true
 
-$(call inherit-product, vendor/light/config/opengapps_full_tablet_wifionly.mk)
+**Add FitnessPrebuilt & Wallet If PRODUCT_CHARACTERISTICS :=phone**
 
-$(call inherit-product, vendor/light/config/opengapps_full_phone.mk)
+	#Add FitnessPrebuilt & Wallet If PRODUCT_CHARACTERISTICS :=phone.
+    PRODUCT_CHARACTERISTICS := phone
+
+**Add to the end of device.mk**
+	
+	#Build A Prety Minimal Gapp package.
+    $(call inherit-product, vendor/light/config/opengapps.mk)
